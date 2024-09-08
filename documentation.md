@@ -16,7 +16,7 @@ Attu is the GUI for Milvus, and will allow you to directly view your databases a
 ### How to use Milvus
 To directly access Milvus, we need an SDK that can communicate between our computer and Milvus. The library used here is Pymilvus, which can be installed by running ```pip install pymilvus``` in your terminal.
 
-To insert data into a collection, refer to the file ```load_data.py```. When complete, click on the button that says ```unloaded``` in Attu and wait for the data to load.
+To insert data into a collection, refer to the file [```load_data.py```](https://github.com/cavalier08/Milvus-Documentation/blob/main/load_data.py). When complete, click on the button that says ```unloaded``` in Attu and wait for the data to load.
 
 ### Common problems & Issues
 1. Attu not connecting to Milvus servers
