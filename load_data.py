@@ -13,7 +13,7 @@ conn = connections.connect(
 dim = 10
 
 #Loads CSV file
-df = pd.read_csv('short_log.csv')
+df = pd.read_csv('log_data(in).csv')
 
 #Converts Content column (originally chars) to vector format using the sci-kit learn library
 vectorizer = TfidfVectorizer(max_features=dim)
